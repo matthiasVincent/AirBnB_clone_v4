@@ -1,0 +1,26 @@
+/*
+ * === Header style ===
+ */
+
+/* Header style */
+header {
+  background: #fff url('../images/logo.png') 20px center no-repeat;
+  border-bottom: 1px solid #ccc;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+header div{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-right: 30px;
+	background-color: #cccccc;
+}
+
+header div.available{
+	background-color: #ff545f;
+}
