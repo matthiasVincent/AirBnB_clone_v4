@@ -1,5 +1,5 @@
 $('document').ready(function () {
-  const url = 'http://' + window.location.hostname + ':5001/api/v1/status/';
+  const url = 'http://18.235.248.173/api/v1/status/';
   $.get(url, function (response) {
     if (response.status === 'OK') {
       $('DIV#api_status').addClass('available');
